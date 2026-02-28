@@ -63,7 +63,7 @@
           "type": "git"
         },
         {
-          "foreground": "p:blue",
+          "foreground": "p:lavender",
           "style": "plain",
           "template": "> Conda:{{ if .Env.CONDA_DEFAULT_ENV }} {{ .Env.CONDA_DEFAULT_ENV }} {{ end }}",
           "type": "text"
