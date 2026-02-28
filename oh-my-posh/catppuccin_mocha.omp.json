@@ -65,7 +65,7 @@
         {
           "foreground": "p:lavender",
           "style": "plain",
-          "template": "> Conda:{{ if .Env.CONDA_DEFAULT_ENV }} {{ .Env.CONDA_DEFAULT_ENV }} {{ end }}",
+          "template": "{{ if .Env.CONDA_DEFAULT_ENV }}> Conda: {{ .Env.CONDA_DEFAULT_ENV }} {{ end }}",
           "type": "text"
         },
         {
